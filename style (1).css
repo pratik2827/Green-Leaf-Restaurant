@@ -1,0 +1,352 @@
+*{
+  margin: 0;
+  font-family: 'Open Sans';
+  padding: 0;
+  overflow-x: no-sc;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.fas,.fab{
+  margin: 5px;
+  font-size: 14px;
+}
+.banner{
+  font-size: 14px;
+  color: white;
+  background-image: url('banner.png');
+  box-shadow: inset 0 0 250px #000000;
+  background-size: cover;
+  height: 540px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.header{
+  padding: 20px 80px;
+  padding-bottom: 110px;
+}
+.upper-nav{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.upper-nav-list{
+  display: flex;
+  list-style: none;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.upper-nav-list-2{
+  display: flex;
+  list-style: none;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.upper-nav-list-2 .list-item{
+  padding-left: 40px !important;
+}
+.upper-nav-list .list-item{
+  padding-right: 10px;
+}
+.dotted-line{
+  border-bottom:1px dashed;
+  padding-top:10px;
+  margin: 0px -80px;
+}
+.lower-nav{
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand-name{
+  padding:0px 20px ;
+  color: #12a84e;
+  font-size: 22px;
+}
+.lower-nav-list{
+  display: flex;
+  list-style: none;
+  font-weight: 500;
+  font-family: 'Raleway' !important;
+}
+.nav-list-item{
+  padding-left: 30px ;
+  border-radius: 5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-image: linear-gradient(45deg,rgba(58, 58, 58, 0.8),rgba(122, 255, 199, 0.8)); */
+  background-color: rgba(194, 255, 237, 0.35);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgb(148, 146, 146);
+  min-width: 160px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #12a84e;
+  border-radius: 5px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  font-weight: 500px;
+  font-weight: bolder;
+}
+.banner-heading-1 a{
+  font-family: 'Allura', cursive;
+  font-size: 34px;
+  font-weight:lighter;
+}
+.banner-heading-2{
+  font-size: 40px;
+  font-weight:bolder;
+}
+.path{
+  margin-top: 100px;
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #12a84e;
+}
+.blogs{
+  margin: 80px;
+}
+
+.blog{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  border: 1px solid rgb(158, 158, 158);
+}
+.blog:hover{
+  border: 1px solid #12a84e;
+}
+.blog > img{
+  height: 335px;
+  width: 370px;
+}
+.blog > div{
+  padding: 30px;
+}
+.blog-heading{
+  color: #12a84e;
+}
+.blog-details{
+  display: flex;
+  font-size: 13px;
+}
+.blog-details >div{
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.blog-para{
+  font-size: 15px;
+  line-height: 23px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.read-more{
+  padding: 14px 25px;
+  height: 45px;
+  border:1px solid #12a84e ;
+  color: #12a84e;
+  background-color: white;
+}
+.read-more:hover{
+  cursor: pointer;
+  background-color: #12a84e;
+  color: white;
+}
+footer{
+  color: white;
+}
+.upper-footer{
+  display: flex;
+  background-color: #12a84e;
+  align-items: center;
+  padding:0px 80px;
+}
+.opening-hours{
+  width: 25%;
+  font-weight: bold;
+}
+.opening-days{
+  padding: 30px 0px;
+  display: flex;
+}
+.opening-days >div{
+  text-align: center;
+  padding: 4px 16px; 
+}
+.hours{
+  padding-top: 20px;
+  font-size: 14px;
+}
+.vertical-line{
+  border-left: 1px solid white;
+  width: 1px;
+  padding: 0px !important;
+}
+.middle-footer{
+  background-color: black;
+  padding: 50px 80px;
+  display: flex;
+  font-size: 14px;
+}
+.middle-footer-list > h2{
+  color: #12a84e;
+}
+.middle-footer-list > ul{
+  margin-top: 40px;
+  list-style: none;
+}
+.mid-1-list  i{
+  color: #12a84e;
+  margin-right: 20px;
+}
+.mid-1-list{
+  margin: 10px 0px;
+}
+h2{
+  font-size:20px;
+}
+.middle-footer-list-2{
+  margin-left: 40px;
+}
+.middle-footer-list-2 > h2{
+  color: #12a84e;
+}
+.middle-footer-list-2 > ul{
+  margin-top: 40px;
+  list-style: none;
+  padding-right: 10px;
+  max-width: max-content;
+}
+.middle-footer-list-3{
+  margin-left: 240px;
+}
+.middle-footer-list-3 >h2{
+  color: #12a84e;
+}
+.middle-footer-list-3 > p{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.middle-footer-list-3 form input{
+  margin: 10px 0px;
+  height: 40px;
+  width: 260px;
+  font-size: 16px ;
+  color: black;
+  outline:none;
+  outline-width: 0px;
+  padding: 0px 5px;
+}
+.middle-footer-list-3 form button{
+  margin:10px 0px;
+  height: 40px;
+  width: 270px;
+  background-color: #12a84e;
+  border: none;
+  color: white;
+  font-size: 16px ;
+}
+.lower-footer{
+  padding: 10px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width:1005px) {
+  .upper-nav{
+      flex-direction: column;
+  }
+  .lower-nav{
+      flex-direction: column;
+  }
+  .blog > img{
+      height:100%;
+      width: 40%;
+  }
+  footer{
+      justify-content: center;
+      align-items: center;
+  }
+  .upper-footer{
+      flex-direction: column;
+  }
+  .middle-footer{
+      flex-direction: column;
+  }
+  .middle-footer-list,
+  .middle-footer-list-2,
+  .middle-footer-list-3{
+      padding: 0px;
+      margin: 0px;
+  }
+}
+@media screen and (max-width:690px){
+  
+}
+@media screen and (max-width:400px) {
+  .banner{
+      background-size:cover;
+      width: 220%;
+  }
+  .blogs{
+      width: 100vw;
+      margin: 20px;
+  }
+  .blog{
+      width: 200%;
+  }
+  footer{
+      width: 220%;
+      margin: 0px;
+  }
+}  
